@@ -1,0 +1,21 @@
+#maincontainer {
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  grid-template-rows: repeat(16,1fr) ;
+  background-color: orchid;
+  gap: 25px;
+  margin: 20px;
+}
+
+#griditems {
+   background-color: lightblue;
+   text-align: center;
+   border: 2px solid black;
+ }
+
+ #griditemshovered {
+    background-color: green;
+    text-align: center;
+    border: 2px solid black;
+  }
+  
