@@ -1,7 +1,7 @@
 #maincontainer {
   display: grid;
   grid-template-columns: repeat(16,1fr);
-  grid-template-rows: repeat(16,1fr) ;
+  grid-template-rows: repeat(16,1fr);
   background-color: orchid;
   gap: 25px;
   margin: 20px;
@@ -11,11 +11,20 @@
    background-color: lightblue;
    text-align: center;
    border: 2px solid black;
+   transition-duration: 2s;
+   transition-property: background-color;
  }
-
- #griditemshovered {
+  
+ #griditemshover {
     background-color: green;
     text-align: center;
     border: 2px solid black;
+    
+  }
+
+
+  button {
+    background-color: pink;
+
   }
   
